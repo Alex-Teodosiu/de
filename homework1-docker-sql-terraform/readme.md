@@ -30,10 +30,10 @@ This repository contains the solutions for the Docker and SQL Homework from the 
 - **Answer:** `terraform init, terraform apply -auto-approve, terraform destroy`
 - **Command:**
   ```bash
-terraform init
-terraform plan
-terraform apply -auto-approve
-terraform destroy -auto-approve
+  terraform init
+  terraform plan
+  terraform apply -auto-approve
+  terraform destroy -auto-approve
 
 
 ## File Structure
