@@ -34,9 +34,3 @@ This repository contains the solutions for the Docker and SQL Homework from the 
   terraform plan
   terraform apply -auto-approve
   terraform destroy -auto-approve
-
-
-## File Structure
-- `docker/`: Contains Docker-related files (Dockerfile, docker-compose.yaml).
-- `sql/`: Contains SQL queries and data files.
-- `terraform/`: Contains Terraform configuration files.
