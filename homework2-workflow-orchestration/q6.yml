@@ -1,0 +1,13 @@
+id: scheduled_taxi_etl
+namespace: nyc.taxi
+tasks:
+  - id: extract_transform_load
+    type: io.kestra.core.tasks.scripts.Python
+    script: |
+      print("ETL process started.")
+
+triggers:
+  - id: schedule
+    type: io.kestra.core.models.triggers.types.Schedule
+    cron: "0 0 * * *"  # Runs daily at midnight
+    timezone: "America/New_York"
